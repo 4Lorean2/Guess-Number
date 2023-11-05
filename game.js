@@ -68,7 +68,7 @@ document.querySelector(".again").onclick = () => {
 
   document.querySelector(".guess").value = "";
 
-  mesaj.textContent = "Oyun yeni oyuncu için başlıyor";
+  mesaj.textContent = "Oyun tekrar başlıyor";
 };
 
 // //! ENTER
