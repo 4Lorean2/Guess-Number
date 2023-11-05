@@ -71,11 +71,11 @@ document.querySelector(".again").onclick = () => {
   mesaj.textContent = "Oyun yeni oyuncu için başlıyor";
 };
 
-//! ENTER
-//Klavyeden enter buttonuna basıldığında check butonunu tetikle.
-document.addEventListener("keydown", function(e){
-    if (e.key === "Enter") {
-        //Enter tuşuna basıldığında check butonunı tıkla
-        document.querySelector(".check").click()
-    }
-} )
+// //! ENTER
+// //Klavyeden enter buttonuna basıldığında check butonunu tetikle.
+// document.addEventListener("keydown", function(e){
+//     if (e.key === "Enter") {
+//         //Enter tuşuna basıldığında check butonunı tıkla
+//         document.querySelector(".check").click()
+//     }
+// } )
